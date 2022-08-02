@@ -1,0 +1,92 @@
+body {
+    background-color: var(--clr-light-grayish-blue);
+    font-family: var(--ff-primary);
+}
+
+h2 {
+    font-size: var(--fs-500);
+    color: var(--clr-white);
+    padding-bottom: .7em;
+}
+
+p {
+    font-size: var(--fs-300);
+    color: var(--clr-white);
+}
+
+span {
+    color: var(--clr-white);
+    font-weight: var(--fw-500);
+}
+
+.container {
+    
+    & > :first-child {
+        background-color: var(--clr-moderate-violet);
+        background-image: url('../../images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-position: top 0 right 2em;
+        margin-top: 3em;
+
+        img {
+            border: 2px solid var(--clr-white);
+        }
+    }
+
+    & > :nth-child(2) {
+        background-color: var(--clr-very-dark-greyish-blue);
+    }
+
+    & > :nth-child(3) {
+        background-color: var(--clr-white);
+
+        span, h2, p {
+            color: var(--clr-very-dark-greyish-blue);
+        }
+
+        .graduate .graduate__name p {
+            color: var(--clr-very-dark-greyish-blue);
+        }
+    }
+
+    & > :nth-child(4) {
+        background-color: var(--clr-very-dark-blackish-blue)
+    }
+
+    & > :last-child {
+        background-color: var(--clr-white);
+        margin-bottom: 3em;
+
+        span, h2, p {
+            color: var(--clr-very-dark-greyish-blue);
+        }
+
+        .graduate .graduate__name p {
+            color: var(--clr-very-dark-greyish-blue);
+        }
+    }
+}
+
+
+.attribution {
+    text-align: center;
+    font-size: var(--fs-300);
+
+    span {
+        font-family: var(--ff-primary);
+        color: var(--clr-dark-greyish-blue);
+        font-weight: var(--fw-400);
+    }
+
+    a {
+        color: var(--clr-moderate-violet);
+        text-decoration: none;
+        font-weight: var(--fw-500);
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: var(--clr-dark-blackish-blue);
+        transition: .2s;
+    }
+}

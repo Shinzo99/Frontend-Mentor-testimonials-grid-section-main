@@ -1,0 +1,27 @@
+:root {
+
+    --clr-moderate-violet: hsl(263, 55%, 52%);
+    --clr-very-dark-greyish-blue: hsl(217, 19%, 35%);
+    --clr-very-dark-blackish-blue: hsl(219, 29%, 14%);
+    
+    --clr-light-gray: hsl(0, 0%, 81%);
+    --clr-light-grayish-blue: hsl(210, 46%, 95%);
+    
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-white-50: hsla(0, 0%, 100%, 0.50);
+    --clr-white-70: hsla(0, 0%, 100%, 0.70);
+
+
+    --fs-300: 0.875rem;
+    --fs-400: 1rem;
+    --fs-500: 1.25rem;
+    --fs-600: 1.5rem;
+    --fs-700: 2.5rem;
+
+    --fw-300: 300;
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+
+    --ff-primary: 'Barlow Semi Condensed', sans-serif;
+}

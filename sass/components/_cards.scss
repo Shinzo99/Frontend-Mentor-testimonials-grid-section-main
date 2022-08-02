@@ -1,0 +1,29 @@
+.card {
+    border-radius: .5em;
+    padding: 1.5em 1.7em 2em 1.7em;
+    margin: 2em 1em;
+
+    .graduate {
+        display: flex;
+        align-items: center;
+        padding-bottom: .8em;
+
+        img {
+            max-width: 2em;
+            height: fit-content;
+            border-radius: 50%;
+        }
+
+        .graduate__name {
+            padding-left: 1em;
+
+            p {
+                opacity: 50%;
+            }
+        }
+    }
+
+    p {
+        opacity: 70%;
+    }
+}
