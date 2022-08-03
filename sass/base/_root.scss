@@ -12,11 +12,15 @@
     --clr-white-70: hsla(0, 0%, 100%, 0.70);
 
 
+    --fs-100: 0.6875rem;
+    --fs-200: 0.8125rem;
     --fs-300: 0.875rem;
-    --fs-400: 1rem;
-    --fs-500: 1.25rem;
-    --fs-600: 1.5rem;
-    --fs-700: 2.5rem;
+    --fs-400: 0.9375rem;
+    --fs-500: 1rem;
+    --fs-600: 1.25rem;
+    --fs-700: 1.5rem;
+    --fs-800: 2rem;
+    --fs-900: 2.5rem;
 
     --fw-300: 300;
     --fw-400: 400;
@@ -24,4 +28,9 @@
     --fw-600: 600;
 
     --ff-primary: 'Barlow Semi Condensed', sans-serif;
+
+    --bp-small : 400px;
+    --bp-medium : 1080px;
+    --bp-large : 1440px;
+
 }

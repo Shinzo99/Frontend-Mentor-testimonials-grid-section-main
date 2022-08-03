@@ -2,6 +2,7 @@
     border-radius: .5em;
     padding: 1.5em 1.7em 2em 1.7em;
     margin: 2em 1em;
+    box-shadow: 0 1rem 3rem hsla(0, 0%, 0%, 0.15);
 
     .graduate {
         display: flex;
@@ -18,6 +19,7 @@
             padding-left: 1em;
 
             p {
+                font-size: var(--fs-100);
                 opacity: 50%;
             }
         }
@@ -25,5 +27,16 @@
 
     p {
         opacity: 70%;
+    }
+}
+
+@media (min-width:1120px) {
+    .card {
+        margin: 0;
+    }
+}
+@media (min-width:800px) {
+    .card {
+        margin: 0;
     }
 }
